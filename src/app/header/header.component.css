@@ -1,0 +1,34 @@
+/* Ajoutez ce CSS dans votre fichier de styles global ou dans le CSS du composant d'en-tête */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px; /* Ajustez selon l'espacement souhaité */
+  background-color: #fff; /* Couleur de fond de l'en-tête, définie ici sur blanc */
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Optionnel: ajoute une ombre douce pour la profondeur */
+}
+
+.logo-container {
+  /* Vous pouvez ajouter des styles supplémentaires pour le conteneur de logo si nécessaire */
+}
+
+.logo {
+  height: auto; /* Gardez le ratio aspect du logo */
+  width: 150px; /* ou la largeur que vous souhaitez pour votre logo */
+}
+
+.nav-links {
+  /* Vous pouvez ajouter des styles supplémentaires pour la navigation si nécessaire */
+}
+
+.discover-link {
+  text-decoration: none; /* Enlève le soulignement par défaut des liens */
+  color: #000; /* Couleur du texte du lien */
+  font-weight: bold; /* Rend le texte du lien en gras */
+  /* Ajoutez d'autres styles pour votre lien ici */
+}
+
+.discover-link:hover {
+  text-decoration: underline; /* Souligne le lien lors du survol */
+}

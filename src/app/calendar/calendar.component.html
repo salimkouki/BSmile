@@ -1,0 +1,9 @@
+<!-- src/app/calendar/calendar.component.html -->
+<mat-card>
+  <mat-card-header>
+    <mat-card-title>Sélectionnez une date</mat-card-title>
+  </mat-card-header>
+  <mat-card-content>
+    <mat-calendar [(selected)]="selectedDate" (selectedChange)="onDateChange($event)" [dateClass]="dateClass"></mat-calendar>
+  </mat-card-content>
+</mat-card>

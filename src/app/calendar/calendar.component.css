@@ -1,0 +1,6 @@
+/* src/app/calendar/calendar.component.css */
+.special-date {
+  background-color: #ff4081;
+  border-radius: 50%;
+  color: white;
+}
